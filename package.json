@@ -1,0 +1,17 @@
+{
+  "name": "web-mission-mern",
+  "version": "1.0.0",
+  "description": "WebMission Digital Agency — Redesigned MERN Stack Animated Experience",
+  "private": true,
+  "scripts": {
+    "install:all": "npm.cmd --prefix server install && npm.cmd --prefix client install",
+    "dev": "concurrently -n API,WEB -c cyan,magenta \"npm.cmd --prefix server run dev\" \"npm.cmd --prefix client run dev\"",
+    "dev:server": "npm.cmd --prefix server run dev",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build": "npm.cmd --prefix client run build",
+    "start": "npm.cmd --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "wm_1794564903679",
+    "name": "Anand",
+    "email": "anand@test.com",
+    "phone": "9840012345",
+    "service": "3D Visualization",
+    "message": "Hello Web Mission team",
+    "status": "new",
+    "createdAt": "2026-11-13T10:15:03.679Z"
+  },
+  {
+    "id": "wm_1794485390415",
+    "name": "Test Client",
+    "email": "client@example.com",
+    "phone": "+91 98765 43210",
+    "service": "Web Development",
+    "message": "Interested in a full redesign.",
+    "status": "new",
+    "createdAt": "2026-11-12T12:09:50.415Z"
+  }
+]
