@@ -8,7 +8,7 @@
     "dev": "concurrently -n API,WEB -c cyan,magenta \"npm.cmd --prefix server run dev\" \"npm.cmd --prefix client run dev\"",
     "dev:server": "npm.cmd --prefix server run dev",
     "dev:client": "npm.cmd --prefix client run dev",
-    "build": "npm.cmd --prefix client run build",
+    "build": "npm --prefix client run build",
     "start": "npm.cmd --prefix server start"
   },
   "devDependencies": {
