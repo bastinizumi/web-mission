@@ -151,7 +151,7 @@ export default function AboutSection() {
 
           <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1] sm:leading-[1.08] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
             Pioneering The Future of{' '}
-            <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(245,158,11,0.3)]">
+            <span className="bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(212,175,55,0.35)]">
               Digital Architecture
             </span>{' '}
             &amp; Spatial Web.
@@ -189,10 +189,10 @@ export default function AboutSection() {
                 </div>
 
                 <div className="flex items-baseline gap-1">
-                  <span className="font-serif text-3xl sm:text-5xl font-black bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 bg-clip-text text-transparent tracking-tight drop-shadow-[0_0_10px_rgba(245,158,11,0.3)]">
+                  <span className="font-serif text-3xl sm:text-5xl font-black bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent tracking-tight drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]">
                     {stat.numericValue}
                   </span>
-                  <span className="font-serif text-xl sm:text-3xl font-black text-amber-400">
+                  <span className="font-serif text-xl sm:text-3xl font-black text-[#e2b755]">
                     {stat.suffix}
                   </span>
                 </div>

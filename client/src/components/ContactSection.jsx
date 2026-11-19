@@ -120,7 +120,7 @@ export default function ContactSection() {
 
           <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1] sm:leading-[1.08] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
             Let&apos;s Build Something{' '}
-            <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(245,158,11,0.3)]">
+            <span className="bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(212,175,55,0.35)]">
               Exceptional.
             </span>
           </h2>
@@ -448,7 +448,7 @@ export default function ContactSection() {
                     disabled={loading}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 py-4 font-mono text-xs sm:text-sm font-black uppercase tracking-wider text-slate-950 shadow-[0_0_25px_rgba(245,158,11,0.45)] transition-all hover:shadow-[0_0_35px_rgba(245,158,11,0.7)] flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50"
+                    className="w-full rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] py-4 font-mono text-xs sm:text-sm font-black uppercase tracking-wider text-[#140e04] shadow-[0_0_25px_rgba(212,175,55,0.45)] transition-all hover:shadow-[0_0_35px_rgba(212,175,55,0.7)] flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50"
                   >
                     {loading ? (
                       <span className="flex items-center gap-2">

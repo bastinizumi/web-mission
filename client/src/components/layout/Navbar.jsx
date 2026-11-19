@@ -27,7 +27,7 @@ export default function Navbar() {
               alt="Web Mission Crest Logo"
               className="h-full w-full object-contain drop-shadow-[0_0_8px_rgba(251,191,36,0.65)] transition-transform group-hover:scale-105"
             />
-            <span className="absolute -bottom-0.5 right-0.5 h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_#ffd700]" />
+            <span className="absolute -bottom-0.5 right-0.5 h-1.5 w-1.5 rounded-full bg-[#d4af37] shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
           </div>
 
           <div className="flex flex-col">
@@ -57,9 +57,9 @@ export default function Navbar() {
 
           <a
             href="#contact"
-            className="group relative inline-flex items-center gap-2 rounded-xl border border-amber-400/60 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-5 py-2 font-mono text-xs font-black text-slate-950 shadow-[0_0_20px_rgba(245,158,11,0.4)] transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.7)] hover:scale-105 cursor-pointer"
+            className="group relative inline-flex items-center gap-2 rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-5 py-2 font-mono text-xs font-black text-[#140e04] shadow-[0_0_20px_rgba(212,175,55,0.45)] transition-all hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:scale-105 cursor-pointer"
           >
-            <Sparkles className="h-3.5 w-3.5 text-slate-950" />
+            <Sparkles className="h-3.5 w-3.5 text-[#140e04]" />
             <span>Launch Vision</span>
             <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
@@ -134,7 +134,7 @@ export default function Navbar() {
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
-                className="mt-2 text-center rounded-xl border border-amber-400 bg-gradient-to-r from-amber-500 to-yellow-400 py-2.5 font-mono text-xs font-black uppercase text-slate-950 shadow-[0_0_15px_rgba(245,158,11,0.3)]"
+                className="mt-2 text-center rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] py-2.5 font-mono text-xs font-black uppercase text-[#140e04] shadow-[0_0_15px_rgba(212,175,55,0.4)]"
               >
                 Launch Vision &rarr;
               </a>

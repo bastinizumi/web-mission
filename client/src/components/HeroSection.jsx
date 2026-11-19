@@ -104,7 +104,7 @@ export default function HeroSection() {
               className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-[5.2rem] font-black leading-[1.08] sm:leading-[1.03] tracking-tight text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]"
             >
               We Build{' '}
-              <span className="block mt-1 sm:mt-2 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(245,158,11,0.35)]">
+              <span className="block mt-1 sm:mt-2 bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(212,175,55,0.45)]">
                 Digital Experiences
               </span>
               <span className="block mt-1 sm:mt-2 text-slate-100 font-sans tracking-tight font-extrabold drop-shadow-[0_2px_15px_rgba(0,0,0,0.95)]">
@@ -125,13 +125,13 @@ export default function HeroSection() {
               ref={buttonsRef}
               className="mt-7 sm:mt-9 flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-5"
             >
-              {/* Primary 24K Gold Button */}
+              {/* Primary 24K Gold Button (Web Mission Logo Palette) */}
               <motion.button
                 type="button"
                 onClick={() => scrollToSection('#projects')}
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-6 sm:px-7 py-3 sm:py-3.5 font-mono text-xs sm:text-sm font-black tracking-wider uppercase text-slate-950 shadow-[0_0_25px_rgba(245,158,11,0.45)] transition-all hover:shadow-[0_0_35px_rgba(245,158,11,0.7)] cursor-pointer"
+                className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-6 sm:px-7 py-3 sm:py-3.5 font-mono text-xs sm:text-sm font-black tracking-wider uppercase text-[#140e04] shadow-[0_0_25px_rgba(212,175,55,0.45)] transition-all hover:shadow-[0_0_35px_rgba(212,175,55,0.7)] cursor-pointer"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <span>Explore Projects</span>
@@ -166,7 +166,7 @@ export default function HeroSection() {
             >
               {METRICS.map((metric) => (
                 <div key={metric.label} className="flex flex-col">
-                  <span className="font-serif text-xl sm:text-2xl md:text-3xl font-black bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(245,158,11,0.3)]">
+                  <span className="font-serif text-xl sm:text-2xl md:text-3xl font-black bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(212,175,55,0.4)]">
                     {metric.value}
                   </span>
                   <span className="mt-0.5 sm:mt-1 font-mono text-[9px] sm:text-[11px] font-bold text-slate-400 uppercase tracking-wider">

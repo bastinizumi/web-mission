@@ -178,7 +178,7 @@ export default function ServicesSection() {
 
           <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1] sm:leading-[1.08] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
             Comprehensive{' '}
-            <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(245,158,11,0.3)]">
+            <span className="bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(212,175,55,0.35)]">
               Digital Solutions
             </span>{' '}
             Engineered to Scale.
@@ -197,7 +197,7 @@ export default function ServicesSection() {
         {/* ================= SUBHEADER FOR DEEP-DIVE GRID ================= */}
         <div className="flex items-center justify-between border-b border-amber-500/20 pb-4 mb-8 sm:mb-10">
           <div className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_#ffd700]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-[#d4af37] shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
             <span className="font-mono text-xs sm:text-sm font-black uppercase tracking-widest text-white">
               DETAILED CAPABILITIES &amp; DELIVERABLES DIRECTORY
             </span>
@@ -300,7 +300,7 @@ export default function ServicesSection() {
             onClick={scrollToContact}
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.98 }}
-            className="shrink-0 rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-8 py-4 font-mono text-xs sm:text-sm font-black uppercase tracking-wider text-slate-950 shadow-[0_0_25px_rgba(245,158,11,0.45)] transition-shadow hover:shadow-[0_0_35px_rgba(245,158,11,0.7)] cursor-pointer"
+            className="shrink-0 rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-8 py-4 font-mono text-xs sm:text-sm font-black uppercase tracking-wider text-[#140e04] shadow-[0_0_25px_rgba(212,175,55,0.45)] transition-shadow hover:shadow-[0_0_35px_rgba(212,175,55,0.7)] cursor-pointer"
           >
             Start Your Project &rarr;
           </motion.button>

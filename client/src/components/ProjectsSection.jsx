@@ -232,7 +232,7 @@ export default function ProjectsSection() {
 
               <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.1] sm:leading-[1.08]">
                 Selected{' '}
-                <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(245,158,11,0.3)]">
+                <span className="bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(212,175,55,0.35)]">
                   Digital Flagships.
                 </span>
               </h2>
@@ -251,7 +251,7 @@ export default function ProjectsSection() {
                   onClick={() => setViewMode('wheel')}
                   className={`flex items-center gap-2 rounded-lg px-3.5 py-1.5 font-mono text-[11px] font-bold uppercase tracking-wider transition-all cursor-pointer ${
                     viewMode === 'wheel'
-                      ? 'border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 text-slate-950 font-black shadow-[0_0_15px_rgba(245,158,11,0.4)]'
+                      ? 'border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] text-[#140e04] font-black shadow-[0_0_15px_rgba(212,175,55,0.4)]'
                       : 'text-slate-400 hover:text-amber-300'
                   }`}
                 >
@@ -264,7 +264,7 @@ export default function ProjectsSection() {
                   onClick={() => setViewMode('grid')}
                   className={`flex items-center gap-2 rounded-lg px-3.5 py-1.5 font-mono text-[11px] font-bold uppercase tracking-wider transition-all cursor-pointer ${
                     viewMode === 'grid'
-                      ? 'border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 text-slate-950 font-black shadow-[0_0_15px_rgba(245,158,11,0.4)]'
+                      ? 'border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] text-[#140e04] font-black shadow-[0_0_15px_rgba(212,175,55,0.4)]'
                       : 'text-slate-400 hover:text-amber-300'
                   }`}
                 >
@@ -284,7 +284,7 @@ export default function ProjectsSection() {
                       onClick={() => setActiveCategory(cat)}
                       className={`rounded-xl px-4 py-1.5 font-mono text-xs font-bold uppercase tracking-wider transition-all duration-300 cursor-pointer ${
                         isActive
-                          ? 'border border-amber-400 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 text-slate-950 font-black shadow-[0_0_20px_rgba(245,158,11,0.4)]'
+                          ? 'border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] text-[#140e04] font-black shadow-[0_0_20px_rgba(212,175,55,0.4)]'
                           : 'border border-slate-800 bg-[#0a0c10]/80 text-slate-400 hover:text-white hover:border-amber-500/40'
                       }`}
                     >
@@ -385,7 +385,7 @@ export default function ProjectsSection() {
                     <button
                       type="button"
                       onClick={() => setSelectedProject(project)}
-                      className="group/btn inline-flex items-center gap-2.5 rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-6 py-2.5 font-mono text-xs font-black uppercase tracking-wider text-slate-950 shadow-[0_0_15px_rgba(245,158,11,0.3)] transition-all hover:shadow-[0_0_25px_rgba(245,158,11,0.5)] cursor-pointer"
+                      className="group/btn inline-flex items-center gap-2.5 rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-6 py-2.5 font-mono text-xs font-black uppercase tracking-wider text-[#140e04] shadow-[0_0_15px_rgba(212,175,55,0.4)] transition-all hover:shadow-[0_0_25px_rgba(212,175,55,0.7)] cursor-pointer"
                     >
                       <span>View Project</span>
                       <ArrowUpRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
@@ -559,7 +559,7 @@ export default function ProjectsSection() {
                     setSelectedProject(null);
                     document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                   }}
-                  className="rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-6 py-2.5 font-mono text-xs font-black uppercase tracking-wider text-slate-950 shadow-[0_0_15px_rgba(245,158,11,0.3)] cursor-pointer"
+                  className="rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-6 py-2.5 font-mono text-xs font-black uppercase tracking-wider text-[#140e04] shadow-[0_0_15px_rgba(212,175,55,0.4)] cursor-pointer"
                 >
                   Start Similar Project &rarr;
                 </button>

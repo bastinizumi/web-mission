@@ -8,21 +8,21 @@ export function GoldSvgDefs() {
   return (
     <svg width="0" height="0" className="absolute pointer-events-none opacity-0" aria-hidden="true">
       <defs>
-        {/* 24K Metallic Gold Gradient for Primary Icon Lines */}
+        {/* 24K Metallic Gold Gradient for Primary Icon Lines (Web Mission Logo Palette) */}
         <linearGradient id="wm-gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#fffbeb" />
-          <stop offset="25%" stopColor="#fef08a" />
-          <stop offset="55%" stopColor="#fbbf24" />
-          <stop offset="85%" stopColor="#f59e0b" />
-          <stop offset="100%" stopColor="#b45309" />
+          <stop offset="0%" stopColor="#ffeca7" />
+          <stop offset="25%" stopColor="#fce89f" />
+          <stop offset="55%" stopColor="#d4af37" />
+          <stop offset="85%" stopColor="#a47c3f" />
+          <stop offset="100%" stopColor="#936a32" />
         </linearGradient>
 
         {/* Hyper-Luminous Starlight Gradient for Active / Hover States */}
         <linearGradient id="wm-gold-bright-grad" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#ffffff" />
-          <stop offset="30%" stopColor="#fef9c3" />
-          <stop offset="70%" stopColor="#fde047" />
-          <stop offset="100%" stopColor="#f59e0b" />
+          <stop offset="30%" stopColor="#ffeca7" />
+          <stop offset="70%" stopColor="#e2b755" />
+          <stop offset="100%" stopColor="#d4af37" />
         </linearGradient>
       </defs>
     </svg>

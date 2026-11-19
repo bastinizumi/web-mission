@@ -52,7 +52,7 @@ export default function Footer() {
                 alt="Web Mission Logo"
                 className="h-full w-full object-contain drop-shadow-[0_0_8px_rgba(251,191,36,0.65)]"
               />
-              <span className="absolute -bottom-0.5 right-1 h-1.5 w-1.5 rounded-full bg-amber-400 shadow-[0_0_8px_#ffd700]" />
+              <span className="absolute -bottom-0.5 right-1 h-1.5 w-1.5 rounded-full bg-[#d4af37] shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
             </div>
 
             <div className="flex flex-col">
@@ -114,7 +114,7 @@ export default function Footer() {
               whileHover={{ y: -2, scale: 1.05 }}
               whileTap={{ y: 1 }}
               aria-label="Back to top"
-              className="flex h-9 w-9 items-center justify-center rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-black hover:shadow-[0_0_15px_rgba(245,158,11,0.5)] transition-all shadow-sm cursor-pointer"
+              className="flex h-9 w-9 items-center justify-center rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] text-[#140e04] font-black hover:shadow-[0_0_15px_rgba(212,175,55,0.5)] transition-all shadow-sm cursor-pointer"
             >
               <ArrowUp className="h-4 w-4 stroke-[2.5]" />
             </motion.button>

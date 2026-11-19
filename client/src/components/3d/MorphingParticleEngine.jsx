@@ -60,9 +60,9 @@ function createSparkleTexture() {
 
   const gradient = ctx.createRadialGradient(32, 32, 0, 32, 32, 32);
   gradient.addColorStop(0, 'rgba(255, 255, 255, 1)');      // Diamond white core
-  gradient.addColorStop(0.2, 'rgba(251, 191, 36, 0.95)');  // 24K Brilliant Gold
-  gradient.addColorStop(0.5, 'rgba(245, 158, 11, 0.6)');   // Luminous Amber Glow
-  gradient.addColorStop(0.75, 'rgba(217, 119, 6, 0.25)');  // Deep Metallic Gold
+  gradient.addColorStop(0.2, 'rgba(252, 232, 159, 0.95)'); // Champagne Gold (#fce89f - Logo highlight)
+  gradient.addColorStop(0.5, 'rgba(212, 175, 55, 0.65)');  // 24K Bullion Gold (#d4af37 - Logo core)
+  gradient.addColorStop(0.75, 'rgba(147, 106, 50, 0.3)');  // Antique Royal Bronze (#936a32 - Logo shade)
   gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');            // Transparent falloff
 
   ctx.fillStyle = gradient;
@@ -85,11 +85,11 @@ function generateShapes() {
 
   const colors = new Float32Array(NUM_PARTICLES * 3);
 
-  // Palette: Radiant 24K Gold (#fbbf24), Imperial Gold (#f59e0b), Diamond Starlight (#ffffff), Warm Amber (#d97706)
-  const colBrightGold = new THREE.Color('#fbbf24');
-  const colImperialGold = new THREE.Color('#f59e0b');
-  const colDiamondWhite = new THREE.Color('#ffffff');
-  const colWarmBronze = new THREE.Color('#d97706');
+  // Palette: Web Mission Logo 24K Gold (#d4af37), Royal Gold (#e2b755), Champagne Gold (#fce89f), Antique Bronze (#936a32)
+  const colBrightGold = new THREE.Color('#d4af37');
+  const colImperialGold = new THREE.Color('#e2b755');
+  const colDiamondWhite = new THREE.Color('#fce89f');
+  const colWarmBronze = new THREE.Color('#936a32');
 
   for (let i = 0; i < NUM_PARTICLES; i++) {
     const i3 = i * 3;
@@ -461,7 +461,7 @@ export default function MorphingParticleEngine() {
         <div className="absolute -top-28 right-0 sm:right-1/4 h-[550px] w-[550px] rounded-full bg-amber-500/14 blur-[160px]" />
 
         {/* Ambient Warm Golden Bronze Glow Bottom-Left */}
-        <div className="absolute -bottom-28 left-0 sm:left-10 h-[500px] w-[500px] rounded-full bg-yellow-600/10 blur-[170px]" />
+        <div className="absolute -bottom-28 left-0 sm:left-10 h-[500px] w-[500px] rounded-full bg-[#936a32]/15 blur-[170px]" />
 
         <Canvas
           camera={{ position: [0, 0, 5.8], fov: 46 }}

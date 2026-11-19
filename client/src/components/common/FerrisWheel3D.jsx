@@ -234,24 +234,24 @@ export default function FerrisWheel3D({
               height: `${spark.size}px`,
               animationDuration: `${spark.duration}s`,
               animationDelay: `${spark.delay}s`,
-              boxShadow: `0 0 ${spark.size * 3.5}px rgba(251,191,36,0.95), 0 0 ${spark.size * 6}px rgba(245,158,11,0.5)`,
+              boxShadow: `0 0 ${spark.size * 3.5}px rgba(212,175,55,0.95), 0 0 ${spark.size * 6}px rgba(184,134,11,0.5)`,
             }}
-            className="absolute rounded-full bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-500 animate-pulse"
+            className="absolute rounded-full bg-gradient-to-r from-[#d4af37] via-[#fce89f] to-[#aa771c] animate-pulse"
           />
         ))}
 
         {/* Floating Twinkling Diamond Embers */}
-        <div className="absolute top-24 left-12 text-amber-400/50 animate-pulse [animation-duration:3.5s]">
-          <Diamond className="h-4 w-4 drop-shadow-[0_0_8px_rgba(251,191,36,0.8)]" />
+        <div className="absolute top-24 left-12 text-[#dfb76c]/50 animate-pulse [animation-duration:3.5s]">
+          <Diamond className="h-4 w-4 drop-shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
         </div>
-        <div className="absolute top-36 right-20 text-yellow-300/40 animate-pulse [animation-duration:4.8s]">
-          <Sparkles className="h-4.5 w-4.5 drop-shadow-[0_0_10px_rgba(251,191,36,0.8)]" />
+        <div className="absolute top-36 right-20 text-[#fce89f]/40 animate-pulse [animation-duration:4.8s]">
+          <Sparkles className="h-4.5 w-4.5 drop-shadow-[0_0_10px_rgba(212,175,55,0.8)]" />
         </div>
-        <div className="absolute bottom-24 left-24 text-amber-300/40 animate-pulse [animation-duration:5.2s]">
-          <Sparkles className="h-4 w-4 drop-shadow-[0_0_8px_rgba(251,191,36,0.8)]" />
+        <div className="absolute bottom-24 left-24 text-[#dfb76c]/40 animate-pulse [animation-duration:5.2s]">
+          <Sparkles className="h-4 w-4 drop-shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
         </div>
-        <div className="absolute bottom-28 right-28 text-amber-400/50 animate-pulse [animation-duration:4s]">
-          <Diamond className="h-3.5 w-3.5 drop-shadow-[0_0_8px_rgba(251,191,36,0.8)]" />
+        <div className="absolute bottom-28 right-28 text-[#dfb76c]/50 animate-pulse [animation-duration:4s]">
+          <Diamond className="h-3.5 w-3.5 drop-shadow-[0_0_8px_rgba(212,175,55,0.8)]" />
         </div>
       </div>
 
@@ -277,7 +277,7 @@ export default function FerrisWheel3D({
 
             <h2 className="font-serif text-lg sm:text-2xl font-black text-white tracking-tight">
               Selected{' '}
-              <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+              <span className="bg-gradient-to-r from-[#fce89f] via-[#d4af37] to-[#aa771c] bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(212,175,55,0.35)]">
                 Digital Flagships.
               </span>
             </h2>
@@ -326,8 +326,8 @@ export default function FerrisWheel3D({
                   onClick={() => jumpToCard(i)}
                   className={`h-7 px-2.5 rounded-lg font-mono text-[10px] font-bold uppercase transition-all cursor-pointer ${
                     i === activeIndex
-                      ? 'border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 text-slate-950 font-black shadow-[0_0_12px_rgba(245,158,11,0.5)] scale-105'
-                      : 'border border-slate-800 bg-[#0c0e14] text-slate-400 hover:text-white hover:border-amber-500/40'
+                      ? 'border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] text-[#140e04] font-black shadow-[0_0_12px_rgba(212,175,55,0.5)] scale-105'
+                      : 'border border-slate-800 bg-[#0c0e14] text-slate-400 hover:text-white hover:border-[#dfb76c]/40'
                   }`}
                 >
                   0{i + 1}
@@ -523,7 +523,7 @@ export default function FerrisWheel3D({
                             e.stopPropagation();
                             onSelectProject(project);
                           }}
-                          className="inline-flex items-center gap-2 rounded-xl border border-amber-300 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 px-4 py-2 font-mono text-xs font-black uppercase tracking-wider text-slate-950 shadow-[0_0_20px_rgba(245,158,11,0.35)] transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.65)] hover:scale-105 cursor-pointer"
+                          className="inline-flex items-center gap-2 rounded-xl border border-[#fce89f]/60 bg-gradient-to-r from-[#b8860b] via-[#e2b755] to-[#996515] px-4 py-2 font-mono text-xs font-black uppercase tracking-wider text-[#140e04] shadow-[0_0_20px_rgba(212,175,55,0.45)] transition-all hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:scale-105 cursor-pointer"
                         >
                           <span>Explore Case Study</span>
                           <ArrowUpRight className="h-3.5 w-3.5" />
