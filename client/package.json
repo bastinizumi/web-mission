@@ -21,8 +21,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.7.0",
-    "three": "^0.187.0",
-    "web-mission-mern": "file:.."
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.9",
